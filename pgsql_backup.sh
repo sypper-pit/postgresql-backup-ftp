@@ -5,7 +5,7 @@ BACKUP_DIR="/www/backup/database/"
 CONTAINER_NAME_PART="pgsql-db"
 POSTGRES_DB="name-db"
 POSTGRES_USER="postgres"
-POSTGRES_PASS_DIR="/run/secrets/db_passwd"
+POSTGRES_PASS_FILE="/run/secrets/db_passwd"
 FTP_USER="backup"
 FTP_PASSWORD="backup123"
 FTP_HOST="192.168.0.200"
@@ -22,7 +22,7 @@ if [ -z "$CONTAINER_ID" ]; then
 fi
 
 # Чтение пароля
-POSTGRES_PASSWORD=$(docker exec $CONTAINER_ID cat $POSTGRES_PASS_DIR)
+POSTGRES_PASSWORD=$(docker exec $CONTAINER_ID cat $POSTGRES_PASS_FILE)
 
 # Формирование имени файла бэкапа
 BACKUP_FILE_NAME="backup_$(date +%Y%m%d_%H%M%S).sql"
