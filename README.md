@@ -21,7 +21,8 @@ This guide explains how to modify a Bash script for backing up a PostgreSQL data
 - FTP server credentials
 
 ## Steps
-0. **Install pack on ubuntu
+0. **Install pack on ubuntu**
+   
     ```bash
     sudo apt install curl lftp
     ```
