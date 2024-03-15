@@ -1,9 +1,15 @@
 BTC: bc1qttzg9yww3nv5dg2d5ja95txmt0mrw9dltfqj57
+
 Monero(XMR): 8AyWrMwPCxrcbcmVDj3Y5RCfcSQtBBVE2JK9qJ4WqrPpaoa3uNvLReQXPXGj7D5zEsMjBKeWWdyDD4gerqzTtKKS36zSfnM
+
 LTC: LfMJCyxxg65sA3X9XEze157D16ztszndqk
+
 USDT(TRC-20): TTZGfnhurU62VRRGYUHMPJ8q6U8rn5xG5a
+
 USDT(ERC-20): 0xbdfec67586a78e5d3b58dfb70aa181823c8deafa
+
 DOGE: D6kb8jcVXYTi82nsoACAYKYhtA5EJ4D9Jg
+
 # Backup and Cleanup Script for PostgreSQL in Docker with FTP Upload
 
 ## Overview
